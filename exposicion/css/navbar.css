@@ -12,7 +12,7 @@ ul>div>label{
 
 .nav-pills{    
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto ;
 }
 
 a{
@@ -20,7 +20,7 @@ a{
     
 }
 .nav-item{
-    text-align: center;
+    text-align: left;
     background-color:#BFBFBF;   
     border-left: gray;   
     margin-left: 5px;
@@ -29,10 +29,9 @@ a{
     height: 35px;
     
 }
-ol{
-    margin-top: 10px;
-}
+
 ol>p{
+    margin-top: 10px;
     color:black;
 }
 
@@ -49,13 +48,7 @@ ol>p{
 }
 
 @media all and (max-width: 900px) and (min-width: 200px) {
-   header,
-   .navegador{
-     
    
-   
-   }
-  
    .iconm{
       
     width: 40px;

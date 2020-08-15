@@ -1,0 +1,38 @@
+.contenedor{
+    align-content: center;
+    margin:0 30px 0 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.contenido{
+    grid-template-areas: "header "
+                         "descrip"
+                         "imagen";
+    display: grid;
+}
+header
+{
+    grid-area: header;
+    display:block;
+    margin:auto;
+}
+
+#descrip{
+    grid-area: descrip;
+}
+
+#imagen{
+    grid-area: imagen;
+   
+}
+
+img{
+    margin:auto;
+    display: block;
+    }
+
+
+.parrafos{
+    display: none;
+}
