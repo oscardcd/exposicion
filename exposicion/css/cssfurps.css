@@ -8,7 +8,8 @@
 .contenido{
     grid-template-areas: "descrip descrip descrip"
                          "imagen parrafos parrafos"
-                         "video video video";
+                         "video video video"
+                        "procon procon procon";
     display: grid;
 }
 h2
@@ -43,11 +44,14 @@ img{
     margin:auto;
     display: block;
     width: 350px;
+    border-radius: 20%;
 }
 
-body
-{
-    background-color: #b2bec3;
+#furpsm{
+    grid-area: procon;
+    display: grid;
+    grid-template-areas: "descripcion descripcion imagen";
 }
+
 
 
