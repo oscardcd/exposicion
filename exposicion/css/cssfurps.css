@@ -31,9 +31,14 @@ h2
 
 .video{
     grid-area: video;
-    display: block;
+   
 }
-
+video{
+    display: block;
+    width: 450px;
+    
+    margin: 50px auto;
+}
 img{
     margin:auto;
     display: block;
