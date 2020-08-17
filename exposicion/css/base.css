@@ -1,0 +1,11 @@
+*{
+  
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #b2bec3;
+}
+
+.contenedor{
+    padding-top: 50px;
+    
+}
