@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=0,maximum-scale=1,user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Exposicion</title>
     <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
@@ -22,7 +22,7 @@
     <div class="contenedor">
 
         <div class="contenido">
-           
+
             <div id="descrip">
                 <h2>Modelo de Calidad FURPS</h2>
                 <p>
@@ -40,66 +40,88 @@
             </div>
             <div class="parrafos">
                 <div class="w3-bar w3-black">
-                    <button class="w3-bar-item w3-button" onclick="openSignificado('funcionalidad')">funcionalidad</button>
+                    <button class="w3-bar-item w3-button"
+                        onclick="openSignificado('funcionalidad')">funcionalidad</button>
                     <button class="w3-bar-item w3-button" onclick="openSignificado('usabilidad')">usabilidad</button>
-                    <button class="w3-bar-item w3-button" onclick="openSignificado('confiabilidad')">confiabilidad</button>
+                    <button class="w3-bar-item w3-button"
+                        onclick="openSignificado('confiabilidad')">confiabilidad</button>
                     <button class="w3-bar-item w3-button" onclick="openSignificado('rendimiento')">rendimiento</button>
                     <button class="w3-bar-item w3-button" onclick="openSignificado('soporte')">soporte</button>
                 </div>
                 <div class="significado" id="funcionalidad">
                     <p>La funcionalidad: hace referencia a los requerimientos específicos de lo que
                         debería realizar el sistema, se valora evaluando los siguientes atributos:
+                    </p>
+                    <ul>
                         <li>Características y capacidades del programa</li>
                         <li>Generalidades de las funciones</li>
                         <li>capacidades</li>
                         <li>Seguridad del sistema</li>
-                        
-                    </p>
+                    </ul>
+
+
                 </div>
-            
+
                 <div class="significado" id="usabilidad" style="display: none;">
                     <p>Los requerimientos de usabilidad hace referencia a la facilidad de uso del
-                        producto, mide el esfuerzo que invierte el usuario para utilizar el sistema, se valora evaluando los
+                        producto, mide el esfuerzo que invierte el usuario para utilizar el sistema, se valora evaluando
+                        los
                         siguientes atributos: pueden incluir subcategorías tales como:
+                    </p>
+                    <ul>
                         <li>Factores humanos.</li>
                         <li>Estética.</li>
                         <li>Consistencia.</li>
                         <li>Documentación.</li>
-                    </p>
+                    </ul>
+
+
                 </div>
                 <div class="significado" id="confiabilidad" style="display: none;">
                     <p>La confiabilidad agrupa los requerimientos que tiene que ver con la solidez y
-                        robustez de un sistema durante su ejecución. Incluye:            
-                      <li>  Recuperabilidad.</li>            
-                        <li>Precisión.</li>            
-                        <li>Predicción.</li>
+                        robustez de un sistema durante su ejecución. Incluye:
                     </p>
+                    <ul>
+                        <li> Recuperabilidad.</li>
+                        <li>Precisión.</li>
+                        <li>Predicción.</li>
+                    </ul>
+
+
                 </div>
                 <div class="significado" id="rendimiento" style="display: none;">
                     <p>Performance (rendimiento – Prestación): hace referenciaa la velocidad del sistema
-                        y su eficiencia en utilización de recursos.            
+                        y su eficiencia en utilización de recursos.
+                    </p>
+                    <ul>
                         <li>Velocidad de procesamiento</li>
-                        <li>Eficiencia</li>            
+                        <li>Eficiencia</li>
                         <li>Consumo de recurso.</li>
                         <li>Rendimiento efectivo total.</li>
                         <li>Productividad.</li>
                         <li>Tiempo de respuesta.</li>
-                    </p>
+                    </ul>
+
+
                 </div>
-            
+
                 <div class="significado" id="soporte" style="display: none;">
-                    <p >Soporte: se relaciona a factores que se dan durante y después de la
-                        implementación del sistema SW.                
-                        <li>Adaptabilidad.</li>                
-                        <li>Extensibilidad.</li>                
-                        <li>Mantenibilidad.</li>                
-                        <li>Compatibilidad.</li>                
-                        <li>Configurabilidad.</li>                
-                        <li>Capacidad de configuración. </li>                
-                        <li>Requisitos de instalación.</li> 
+                    <p>Soporte: se relaciona a factores que se dan durante y después de la
+                        implementación del sistema SW.
                     </p>
+                    <ul>
+                        <li>Adaptabilidad.</li>
+                        <li>Extensibilidad.</li>
+                        <li>Mantenibilidad.</li>
+                        <li>Compatibilidad.</li>
+                        <li>Configurabilidad.</li>
+                        <li>Capacidad de configuración. </li>
+                        <li>Requisitos de instalación.</li>
+                    </ul>
+
+
                 </div>
-                
+
             </div>
             <div class="video">
                 <video src="../video/modelo-de-calidad-furps.mp4" controls></video>
@@ -108,10 +130,11 @@
                 <div class="descripcionf+">
                     <div class="pro">
                         <h3>PRO</h3>
-                        <p>Se pueden reducir los riesgos de no considerar alguna de las facetas del desarrollo de un sistema.<br>
+                        <p>Se pueden reducir los riesgos de no considerar alguna de las facetas del desarrollo de un
+                            sistema.<br>
 
                             Es posible estandarizar algunos criterios para poder obtener los requerimientos.<br>
-                            
+
                             Los criterios son de fácil comprensión lo que facilita su implementación.</p>
                     </div>
                     <div class="contra">
@@ -120,7 +143,7 @@
                     </div>
                 </div>
                 <div class="imagenf+"><img src="../img/furps+.jpg" alt=""></div>
-                
+
             </div>
         </div>
     </div>
