@@ -7,20 +7,23 @@
 
     <title>Exposicion</title>
     <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="../css/navbar.css">
     <link rel="stylesheet" href="../css/cssfurps.css">
     <script src="../js/navbar.js"></script>
+    <script src="../js/modal.js"></script>
 </head>
 
 <body class="body">
+    <header>
+        <div class="navegador" id="navegador"></div>
+    </header>
     <div class="contenedor">
-        <div class="navegador" id="navegador">
 
-        </div>
         <div class="contenido">
-            <header><h2>Modelo de Calidad FURPS</h2></header>
+           
             <div id="descrip">
+                <h2>Modelo de Calidad FURPS</h2>
                 <p>
                     Modelo presentado por Hewlett- Packard (HP) en 1987, donde se desarrolla un conjunto de factores de
                     calidad software, bajo el acrónimo FURPS.
@@ -35,64 +38,73 @@
                 <img src="../img/Furps.png" alt="siglas FURPS">
             </div>
             <div class="parrafos">
-                <p class="significado_1">La funcionalidad: hace referencia a los requerimientos específicos de lo que debería realizar el sistema, se valora evaluando los siguientes atributos:
-
-                    Características y capacidades del programa
-                    
-                    Generalidades de las funciones
-                    
-                    capacidades
-                    
-                    Seguridad del sistema</p>
-                    <p class="significado">Los requerimientos de usabilidadhace referencia a la facilidad de uso del producto, mide el esfuerzo que invierte el usuario para utilizar el sistema, se valora evaluando los siguientes atributos: pueden incluir subcategorías tales como: 
-
-                        Factores humanos. 
-                        
-                        Estética. 
-                        
+                <div class="w3-bar w3-black">
+                    <button class="w3-bar-item w3-button" onclick="openSignificado('funcionalidad')">funcionalidad</button>
+                    <button class="w3-bar-item w3-button" onclick="openSignificado('usabilidad')">usabilidad</button>
+                    <button class="w3-bar-item w3-button" onclick="openSignificado('confiabilidad')">confiabilidad</button>
+                    <button class="w3-bar-item w3-button" onclick="openSignificado('rendimiento')">rendimiento</button>
+                    <button class="w3-bar-item w3-button" onclick="openSignificado('soporte')">soporte</button>
+                </div>
+                <div class="significado" id="funcionalidad">
+                    <p>La funcionalidad: hace referencia a los requerimientos específicos de lo que
+                        debería realizar el sistema, se valora evaluando los siguientes atributos:
+                        Características y capacidades del programa
+                        Generalidades de las funciones
+                        capacidades
+                        Seguridad del sistema
+                    </p>
+                </div>
+            
+                <div class="significado" id="usabilidad" style="display: none;">
+                    <p>Los requerimientos de usabilidad hace referencia a la facilidad de uso del
+                        producto, mide el esfuerzo que invierte el usuario para utilizar el sistema, se valora evaluando los
+                        siguientes atributos: pueden incluir subcategorías tales como:
+                        Factores humanos.
+                        Estética.
                         Consistencia.
-                        
-                        Documentación.</p>
-                    <p class="significado">La confiabilidad agrupa los requerimientos que tiene que ver con la solidez y robustez de un sistema durante su ejecución. Incluye: 
-
-                        Recuperabilidad. 
-                        
-                        Precisión. 
-                        
-                        Predicción. </p>
-                    <p class="significado">Performance (rendimiento – Prestación): hace referenciaa la velocidad del sistema y su eficiencia en utilización de recursos.
-
-                        Velocidad de procesamiento
-                        
-                        Eficiencia
-                        
-                        Consumo de recurso.
-                        
-                        Rendimiento efectivo total.
-                        
-                        Productividad. 
-                        
-                        Tiempo de respuesta.</p>
-                    <p class="significado">Soporte: se relaciona a factores que se dan durante y después de la implementación del sistema SW.
-
-                        Adaptabilidad. 
-                        
-                        Extensibilidad. 
-                        
-                        Mantenibilidad. 
-                        
-                        Compatibilidad. 
-                        
-                        Configurabilidad. 
-                        
-                        Capacidad de configuración
-                        
-                        Requisitos de instalación.</p>
+                        Documentación.
+                    </p>
+                </div>
+                <div class="significado" id="confiabilidad" style="display: none;">
+                    <p>La confiabilidad agrupa los requerimientos que tiene que ver con la solidez y
+                        robustez de un sistema durante su ejecución. Incluye:
+            
+                        Recuperabilidad.
+            
+                        Precisión.
+            
+                        Predicción.
+                    </p>
+                </div>
+                <div class="significado" id="rendimiento" style="display: none;">
+                    <p>Performance (rendimiento – Prestación): hace referenciaa la velocidad del sistema
+                        y su eficiencia en utilización de recursos.            
+                        Velocidad de procesamiento            
+                        Eficiencia            
+                        Consumo de recurso.            
+                        Rendimiento efectivo total.            
+                        Productividad.            
+                        Tiempo de respuesta.
+                    </p>
+                </div>
+            
+                <div class="significado" id="soporte" style="display: none;">
+                    <p >Soporte: se relaciona a factores que se dan durante y después de la
+                        implementación del sistema SW.                
+                        Adaptabilidad.                
+                        Extensibilidad.                
+                        Mantenibilidad.                
+                        Compatibilidad.                
+                        Configurabilidad.                
+                        Capacidad de configuración.                
+                        Requisitos de instalación.
+                    </p>
+                </div>
+                
             </div>
             <div id="furps+">
                 <img src="../img/furps+.jpg" alt="">
             </div>
-
         </div>
     </div>
 </body>

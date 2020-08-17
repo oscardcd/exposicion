@@ -1,11 +1,12 @@
-.navegador{
+header{
     display: grid;
     margin:0;
+    width: 50%;
+    position: fixed;
+    z-index: 100;
+    
 }
-.iconm{
-    display: none;
-    margin: 0;
-}
+
 ul>div>label{
     display: none;
 }
@@ -23,11 +24,10 @@ a{
     text-align: left;
     background-color:#BFBFBF;   
     border-left: gray;   
-    margin-left: 5px;
+    margin-left: 10px;
     border-radius: 5px;
     color: honeydew;
     height: 35px;
-    
 }
 
 ol>p{
@@ -49,13 +49,14 @@ ol>p{
 
 @media all and (max-width: 900px) and (min-width: 200px) {
    
+    header{
+        width: 100%;
+    }
    .iconm{
-      
     width: 40px;
     display: grid;
-   margin-left: 20px;
-   margin-top: 20px; 
-   
+    margin-left: 20px;
+    margin-top: 20px; 
    }
    ul>div>label{
     display:grid;
@@ -67,8 +68,7 @@ ol>p{
    margin-left: 20px;
    margin-top: 20px; 
     width: 60px;
-
-   }
+ }
  
        
 }
