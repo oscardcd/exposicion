@@ -1,6 +1,4 @@
-*{
-    font-family: 'Open Sans', sans-serif;
-}
+
 .contenedor{
     align-content: center;
     margin:0 30px 0 30px;
@@ -10,7 +8,8 @@
 .contenido{
     grid-template-areas: "descrip descrip descrip"
                          "imagen parrafos parrafos"
-                         ;
+                         "video video video"
+                        "procon procon procon";
     display: grid;
 }
 h2
@@ -31,10 +30,28 @@ h2
     grid-area: parrafos;
 }
 
+.video{
+    grid-area: video;
+   
+}
+video{
+    display: block;
+    width: 450px;
+    
+    margin: 50px auto;
+}
 img{
     margin:auto;
     display: block;
     width: 350px;
+    border-radius: 20%;
 }
+
+#furpsm{
+    grid-area: procon;
+    display: grid;
+    grid-template-areas: "descripcion descripcion imagen";
+}
+
 
 

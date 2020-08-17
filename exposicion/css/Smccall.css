@@ -1,14 +1,8 @@
-*
-{
-    font-family: 'Open Sans', sans-serif;
-}
 
 main
 {
     text-align: center;
-    padding-top: 50px;
-    
-    
+    padding-top: 70px;
 }
 
 .lista
@@ -27,7 +21,7 @@ img
     text-align: left;
 }
 
-.contenedor>
+.contenedor>div>div
 {
     text-align: left;
     padding: 10px;
