@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    padding-top: 50px;
+}
+
+.section1{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+ .titulo{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/*----*/
+.contenedor1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.video{
+    width: 48%;
+}
+
+.contenedor2{
+    width: 48%;
+}
+
+.ques{
+    padding: 0px 0px 15px 15px;
+}
+
+.section2{
+    left: 50%;
+    top: 50%;  
+    padding: 60px 0;
+}
+
+.tsection2{
+    text-align: center;
+    padding: 10px;
+}
+
+
+img{
+   margin: auto;
+   height: auto;
+   display: block;
+   width: 400px;
+   padding: 30px;
+}
+
+
+
