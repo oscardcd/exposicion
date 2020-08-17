@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>EXposicion</title>
+    <title>Exposicion</title>
 
     <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/Smccall.css" />
     <link rel="stylesheet" href="../css/navbar.css" />
     <script src="../js/navbar.js"></script>
   </head>
@@ -15,7 +15,7 @@
     <main>
       <h1>Modelo McCall</h1>
       <div>
-        <p>
+        <p class="parrafo">
           El modelo de evaluación de McCall fue uno de los primeros modelos en
           ser creados para dicho fin; éste nació en el año 1977. Este es un
           modelo que está considerado desde la percepción del usuario y propone
@@ -24,14 +24,14 @@
           genérico de calidad en 3 capacidades importantes las cuales son:
           Revisión, Operación y Transición.
         </p>
-        <img src="../img/image.png" alt="" /><br />
+        <img src="../img/image.png" alt="" /><br/>
 
-        <p>
+        <h3>
           El modelo de McCall se centra en tres aspectos importantes de un
           producto de software:
-        </p>
+        </h3>
 
-        <ul>
+        <ul class="lista">
           <li>Sus características operativas/Operación del Producto</li>
           <li>Su capacidad para soportar los cambios/Revisión del Producto</li>
           <li>Su adaptabilidad a nuevos entornos/Transición del producto</li>
@@ -39,7 +39,10 @@
 
         <h1>Lista de factores:</h1>
 
-        <h2>Operación del producto</h2>
+        <div class="contenedor">
+        
+        <div>
+        <h2>Operación del producto </h2>
 
         <p>
           • Corrección: Mide el grado en que un programa satisface sus
@@ -62,8 +65,11 @@
           • Facilidad de Uso: es el esfuerzo requerido para aprender un programa
           e interpretar la información de entrada y de salida.
         </p>
+      </div>
 
-        <h2>Revisión de producto</h2>
+        <div class="lado">
+
+        <div class="left"><h2>Revisión de producto </h2>
 
         <p>
           • Facilidad de Mantenimiento: es el esfuerzo requerido para localizar
@@ -77,8 +83,9 @@
           • Flexibilidad: es el esfuerzo requerido para modificar un sistema
           operativo.
         </p>
+      </div>
 
-        <h2>Transición de producto</h2>
+        <div class="left"><h2>Transición de producto </h2>
 
         <p>
           • Portabilidad: es el esfuerzo requerido para transferir un software
@@ -93,14 +100,31 @@
           un programa a otro.
         </p>
       </div>
+      </div>
+    </div>
+      </div>
     </main>
 
-    <section class="video">
-      <h2>Videos</h2>
+    <section class="sec">
+      <h2>Video explicativo McCall:</h2><br>
 
       <video src="../video/modelo-de-calidad-de-maccall.mp4" controls></video>
-    </section>
 
-    <footer>derechos reservados por mi</footer>
+      <div>
+        
+          <h2>Ventajas:</h2>
+          <p>Este modelo proporciona una vista común y comparable que se reutiliza en cada proyecto, ya que el conjunto de factores de calidad siempre es el mismo.</p>
+      
+          
+          <h2>Desventajas:</h2>
+          <p>Uno de sus inconvenientes es su poca flexibilidad, pues asume que siempre bastara con un subconjunto de sus factores para evaluar la calidad en cualquier proyecto.
+          </p>          
+      </div>
+      
+
+
+    </section><br>
+
+    <footer>Derechos reservados por mi</footer>
   </body>
 </html>
